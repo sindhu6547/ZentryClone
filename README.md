@@ -1,21 +1,119 @@
-<<<<<<< HEAD
-# React + Vite
+# Zentry Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page clone inspired by the Zentry website.  
+Built using **React**, **Vite**, and **Tailwind CSS** with clean component architecture and media-rich design.
 
-Currently, two official plugins are available:
+##  Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project recreates a visually engaging landing page with:
 
-## React Compiler
+- Reusable React components
+- Smooth layout structure
+- Responsive design
+- Optimized asset management
+- Clean folder organization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It was developed as a frontend practice project to strengthen React and UI development skills.
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ZentryClone
-Zentry website clone built with React and modern UI design
->>>>>>> e49fe6b4cbe3f5258e854ca38b4b536a3adc5ae9
+| Technology | Purpose |
+|------------|----------|
+| React.js | UI Development |
+| Vite | Fast Build Tool |
+| Tailwind CSS | Styling |
+| JavaScript (ES6+) | Logic |
+| PostCSS | CSS Processing |
+| clsx | Conditional class handling |
+
+
+##  Folder Structure
+
+```
+ZentryClone/
+│
+├── public/
+│   ├── audio/
+│   ├── fonts/
+│   ├── img/
+│   └── videos/
+│
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
+
+---
+
+##  Installation
+
+### Clone Repository
+
+```
+git clone https://github.com/sindhu6547/ZentryClone.git
+```
+
+### Navigate to Project
+
+```
+cd ZentryClone
+```
+
+### Install Dependencies
+
+```
+npm install
+```
+
+### Start Development Server
+
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+
+
+##  Features
+
+-  Modern UI design
+-  Fully responsive layout
+-  Video & media sections
+-  Reusable components
+-  Clean project structure
+
+
+##  What I Learned
+
+- Building scalable React applications  
+- Organizing large frontend projects  
+- Managing assets efficiently  
+- Handling Git & GitHub workflows  
+
+
+
+##  Live Demo
+
+*(https://zentry-clone-lime-nine.vercel.app/)*
+
+
+##  Author
+
+**Kalagotla Sindhuja**  
+GitHub: https://github.com/sindhu6547    
+Linkedin: https://www.linkedin.com/in/sindhuja-kalagotla  
+
+## License
+
+This project is created for educational purposes.
